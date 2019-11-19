@@ -5,7 +5,7 @@ ruby '2.6.3'
 source 'https://rubygems.org'
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'ddtrace'
+gem 'newrelic_rpm'
 gem 'pry'
 gem 'puma', '~> 3.0'
 gem 'rake'

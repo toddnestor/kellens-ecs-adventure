@@ -3,11 +3,7 @@
 require 'bundler/setup'
 require_relative 'app/service'
 
-require 'ddtrace'
-
-Datadog.configure do |c|
-  c.use :sinatra, service_name: 'empty-sinatra'
-end
+require 'newrelic_rpm'
 
 EmptySinatra::Service.set :root, ::File.dirname(__FILE__)
 
