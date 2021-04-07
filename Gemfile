@@ -7,7 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'newrelic_rpm'
 gem 'pry'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 5.2'
 gem 'rake'
 gem 'rack-test'
 gem "mocha"
