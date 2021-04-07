@@ -11,7 +11,7 @@ gem 'puma', '~> 3.12'
 gem 'rake'
 gem 'rack-test'
 gem "mocha"
-gem 'sinatra', '~> 2.0'
+gem 'sinatra', '~> 2.1'
 gem 'sinatra-contrib'
 
 group :development do
